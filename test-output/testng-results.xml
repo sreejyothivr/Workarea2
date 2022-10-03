@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-03T12:07:03 IST" name="CrossbrowserTesting2" finished-at="2022-10-03T12:07:10 IST" duration-ms="6353">
+    <groups>
+    </groups>
+    <test started-at="2022-10-03T12:07:03 IST" name="ChromeTest" finished-at="2022-10-03T12:07:10 IST" duration-ms="6353">
+      <class name="Testcases.ManageCodTest">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:Testcases.ManageCodTest@1af2d44a]" started-at="2022-10-03T12:07:03 IST" name="beforemethod" finished-at="2022-10-03T12:07:08 IST" duration-ms="4708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkboxValidation()[pri:0, instance:Testcases.ManageCodTest@1af2d44a]" started-at="2022-10-03T12:07:08 IST" name="checkboxValidation" finished-at="2022-10-03T12:07:09 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxValidation -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testcases.ManageCodTest@1af2d44a]" started-at="2022-10-03T12:07:09 IST" name="aftermethod" finished-at="2022-10-03T12:07:10 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkboxValidation status=SUCCESS method=ManageCodTest.checkboxValidation()[pri:0, instance:Testcases.ManageCodTest@1af2d44a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Testcases.ManageCodTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- CrossbrowserTesting2 -->
+</testng-results>
